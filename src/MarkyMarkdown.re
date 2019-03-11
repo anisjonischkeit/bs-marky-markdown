@@ -21,4 +21,4 @@ type options = {
   [@bs.optional]
   headingSvgClass: array(string) 
 };
-[@bs.module] external marky : (string, option(options)) => string = "marky-markdown";
+[@bs.module] external marky : (string, ~options: options=?, unit) => string = "marky-markdown";
