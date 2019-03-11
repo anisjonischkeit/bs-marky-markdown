@@ -1,0 +1,1 @@
+Bucklescript bindings for marky-markdown
