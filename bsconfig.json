@@ -1,0 +1,5 @@
+{
+    "name": "bs-marky-markdown",
+    "sources": ["src"],
+    "refmt": 3
+}
