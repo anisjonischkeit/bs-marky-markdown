@@ -1,6 +1,6 @@
 # bs-marky-markdown
 
-Bucklescript bindings for marky-markdown.
+[marky-markdown](http://npm.im/marky-markdown) bindings for [BuckleScript](https://bucklescript.github.io) in [Reason](https://reasonml.github.io).
 
 Has only been tested in the browser.
 

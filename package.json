@@ -1,7 +1,7 @@
 {
   "name": "bs-marky-markdown",
   "version": "2.0.2",
-  "description": "Bucklescript bindings for marky-markdown",
+  "description": "marky-markdown bindings for BuckleScript in Reason",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
