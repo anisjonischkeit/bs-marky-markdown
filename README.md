@@ -15,14 +15,14 @@ npm i bs-marky-markdown -s
 ## Basic usage
 
 ```reasonml
-MarkyMarkdown.marky("# asdsad", ())
+MarkyMarkdown.marky("# My Markdown String", ())
 ```
 
 ## With Options
 
 ```reasonml
 MarkyMarkdown.marky(
-    "# My Markdown Data", 
+    "# My Markdown String", 
     ~options=MarkyMarkdown.options(
         ~highlightSyntax=false, 
         ()
@@ -41,6 +41,6 @@ MarkyMarkdown.marky(
 - [x] enableHeadingLinkIcons: bool
 - [x] serveImagesWithCDN: bool
 - [x] debug: bool
-- [] package (what even is this??)
+- [ ] package (what even is this??)
 - [x] headingAnchorClass: string
 - [x] headingSvgClass: array(string) 
