@@ -21,14 +21,13 @@ MarkyMarkdown.marky("# My Markdown String", ())
 ## With Options
 
 ```reasonml
-MarkyMarkdown.marky(
-    "# My Markdown String", 
-    ~options=MarkyMarkdown.options(
-        ~highlightSyntax=false, 
-        ()
-    ), 
-    ()
+let htmlStr = MarkyMarkdown.make("# My Markdown String")
+
+// with options
+let htmlStr = MarkyMarkdown.(
+  make(~options=options(~highlightSyntax=false, ()), "# My Markdown String")
 )
+
 ```
 
 # Available Options
@@ -43,4 +42,4 @@ MarkyMarkdown.marky(
 - [x] debug: bool
 - [ ] package (what even is this??)
 - [x] headingAnchorClass: string
-- [x] headingSvgClass: array(string) 
+- [x] headingSvgClass: array(string)
