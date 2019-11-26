@@ -1,6 +1,6 @@
 {
   "name": "bs-marky-markdown",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "marky-markdown bindings for BuckleScript in Reason",
   "scripts": {
     "test": "bsb -make-world && node test/Example.bs.js",

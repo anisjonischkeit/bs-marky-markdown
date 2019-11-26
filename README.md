@@ -15,15 +15,12 @@ npm i bs-marky-markdown -s
 ## Basic usage
 
 ```reasonml
-MarkyMarkdown.marky("# My Markdown String", ())
+let htmlStr = MarkyMarkdown.make("# My Markdown String")
 ```
 
 ## With Options
 
 ```reasonml
-let htmlStr = MarkyMarkdown.make("# My Markdown String")
-
-// with options
 let htmlStr = MarkyMarkdown.(
   make(~options=options(~highlightSyntax=false, ()), "# My Markdown String")
 )
