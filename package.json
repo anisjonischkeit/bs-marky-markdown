@@ -1,9 +1,11 @@
 {
   "name": "bs-marky-markdown",
-  "version": "2.0.5",
+  "version": "2.1.5",
   "description": "marky-markdown bindings for BuckleScript in Reason",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bsb -make-world && node test/Example.bs.js",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean"
   },
   "author": "Anis Jonischkeit <anis.jonischkeit@gmail.com>",
   "license": "ISC",
@@ -14,9 +16,16 @@
   "dependencies": {
     "marky-markdown": "^12.0.0"
   },
+  "devDependencies": {
+    "bs-platform": "5.0.6"
+  },
   "bugs": {
     "url": "https://github.com/anisjonischkeit/bs-marky-markdown/issues"
   },
+  "sources": [
+    "src",
+    "test"
+  ],
   "homepage": "https://github.com/anisjonischkeit/bs-marky-markdown",
   "keywords": [
     "readme",

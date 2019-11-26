@@ -1,0 +1,1 @@
+MarkyMarkdown.make("# Some Title\nsome text") |> Js.log2("Output is: ");

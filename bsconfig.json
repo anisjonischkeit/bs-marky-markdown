@@ -1,5 +1,19 @@
 {
-    "name": "bs-marky-markdown",
-    "sources": ["src"],
-    "refmt": 3
+  "name": "bs-marky-markdown",
+  "sources": [
+    "src",
+    {
+      "dir": "test",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "refmt": 3
 }

@@ -19,6 +19,14 @@ type options = {
   [@bs.optional]
   headingAnchorClass: string,
   [@bs.optional]
-  headingSvgClass: array(string) 
+  headingSvgClass: array(string),
 };
-[@bs.module] external marky : (string, ~options: options=?, unit) => string = "marky-markdown";
+
+[@bs.module]
+external make: (string, ~options: options=?, unit) => string =
+  "marky-markdown";
+
+[@ocaml.deprecated "Use make instead."]
+let marky = make;
+
+let make = (~options=?, markdown) => marky(markdown, ~options?, ());
