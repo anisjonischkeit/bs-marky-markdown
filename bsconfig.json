@@ -14,6 +14,6 @@
     }
   ],
   "suffix": ".bs.js",
-  "namespace": true,
+  "namespace": false,
   "refmt": 3
 }
