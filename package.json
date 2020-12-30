@@ -14,7 +14,7 @@
     "url": "https://github.com/anisjonischkeit/bs-marky-markdown"
   },
   "dependencies": {
-    "marky-markdown": "^12.0.0"
+    "@npmcorp/marky-markdown": "12.0.3"
   },
   "devDependencies": {
     "bs-platform": "5.0.6"

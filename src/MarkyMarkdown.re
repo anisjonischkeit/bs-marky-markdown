@@ -24,9 +24,10 @@ type options = {
 
 [@bs.module]
 external make: (string, ~options: options=?, unit) => string =
-  "marky-markdown";
+  "@npmcorp/marky-markdown";
 
 [@ocaml.deprecated "Use make instead."]
 let marky = make;
 
 let make = (~options=?, markdown) => marky(markdown, ~options?, ());
+
